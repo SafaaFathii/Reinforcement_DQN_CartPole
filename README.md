@@ -1,0 +1,2 @@
+# Reinforcement_DQN_CartPole
+The idea of CartPole is that there is a pole standing up on top of a cart. The goal is to balance this pole by moving the cart from side to side to keep the stick balanced upright.  We consider the environment won if we balance it for 500 frames and fail once the pole is tilted more than 15 degrees from totally vertical or the cart moves more than 2.4 units from the middle position.  For every frame that we go with the pole "balanced" (less than 15 degrees from vertical), our "score" gets +1, and our target is a score of 500.
